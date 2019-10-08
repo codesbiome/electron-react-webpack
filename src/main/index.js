@@ -28,6 +28,7 @@ function createWindow() {
     width: 800,
     height: 600,
     backgroundColor: '#fafafa',
+    icon: path.resolve(__dirname, '../../static/app.ico'),
     webPreferences: {
       nodeIntegration: true,
       preload: path.resolve(__dirname, 'preload.js'),
