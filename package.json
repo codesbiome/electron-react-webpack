@@ -1,16 +1,25 @@
 {
   "name": "electron-react-webpack",
   "version": "0.1.0",
-  "description": "A custom boilerplate for Desktop application made with Electron + React + Webpack technologies",
+  "description": "A custom boilerplate for Desktop Applications made with Electron + React + Webpack technologies",
   "main": "src/main/index.js",
   "license": "MIT",
+  "author": "Gary",
+  "build": {
+    "appId": "com.electron.${name}",
+    "productName": "MyElectronApp",
+    "copyright": "Copyright @ 2019 ${author}",
+	"win": {
+		"icon": "static/app.ico",
+	}
+  },
   "scripts": {
     "clean": "rm -rf ./dist",
     "start": "electron .",
     "dev": "electron-webpack dev",
     "compile": "electron-webpack",
-    "dist": "yarn compile && electron-builder",
-    "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
+    "build": "yarn build:all --dir -c.compression=store -c.mac.identity=null",
+    "build:all": "yarn compile && electron-builder"
   },
   "devDependencies": {
     "electron": "^6.0.11",
