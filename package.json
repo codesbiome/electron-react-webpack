@@ -6,10 +6,11 @@
   "license": "MIT",
   "author": "Gary",
   "build": {
-    "appId": "com.electron.${name}",
+    "appId": "com.electron.myelectronapp",
     "productName": "MyElectronApp",
-    "copyright": "Copyright @ 2019 ${author}",
+    "copyright": "Copyright @ 2019 Gary",
     "win": {
+	  "target": "nsis",
       "icon": "static/app.ico"
     }
   },
