@@ -3,8 +3,7 @@
 console.log("Hello from 'preload'");
 
 const { version: ReactVersion } = require('react');
-const { version: WebpackVersion } = require('webpack');
-const modulesInUse = ['chrome', 'node', 'electron', 'react', 'webpack'];
+const modulesInUse = ['chrome', 'node', 'electron', 'react', 'platform'];
 
 // Keep 'modules version' in 'window" object
 window['modulesInUse'] = getModulesVersion(modulesInUse);
@@ -26,8 +25,8 @@ function getModulesVersion(modulesInUse) {
       case 'react':
         version = ReactVersion;
         break;
-      case 'webpack':
-        version = WebpackVersion;
+      case 'platform':
+        version = navigator.platform;
         break;
       default:
         version = process.versions[type];
