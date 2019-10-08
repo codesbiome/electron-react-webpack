@@ -40,6 +40,7 @@ const App = () => {
               <Link to="/">Go back</Link>
             </div>
           </Route>
+
           <Route path="/">
             <h3 className="headline">
               Made with <span className="heart">❤️</span> and chanting mantra 🙏
