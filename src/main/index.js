@@ -46,7 +46,9 @@ function createWindow() {
         mainWindow.focus();
       });
       // Open Developer Tools window
-      mainWindow.webContents.openDevTools();
+      mainWindow.webContents.openDevTools({
+        mode: 'bottom',
+      });
     });
   }
 
