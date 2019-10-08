@@ -6,7 +6,8 @@ const SystemModules = ({ modules }) => {
       {Object.keys(modules).map(key => {
         return (
           <li key={key}>
-            {key} - {modules[key]}
+            <span className="name">{key}</span>
+            <span className="version">{modules[key]}</span>
           </li>
         );
       })}

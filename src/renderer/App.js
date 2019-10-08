@@ -4,9 +4,20 @@ import SystemModules from './components/SystemModules';
 const App = () => {
   return (
     <div>
-      <h1>Welcome to Electron App!</h1>
-      <h2>We are using:</h2>
-      <SystemModules modules={window['modulesInUse']} />
+      <div className="jumbo">
+        <img className="logo" src="./app.ico" />
+        <h1>
+          My <span>Electron</span> App
+        </h1>
+      </div>
+
+      <h3 className="headline">
+        Made with <span className="heart">❤️</span> and chanting mantra 🙏
+      </h3>
+      <div className="modules">
+        <h3>Ingredients Information</h3>
+        <SystemModules modules={window['modulesInUse']} />
+      </div>
     </div>
   );
 };
