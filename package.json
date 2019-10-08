@@ -9,9 +9,9 @@
     "appId": "com.electron.${name}",
     "productName": "MyElectronApp",
     "copyright": "Copyright @ 2019 ${author}",
-	"win": {
-		"icon": "static/app.ico",
-	}
+    "win": {
+      "icon": "static/app.ico"
+    }
   },
   "scripts": {
     "clean": "rm -rf ./dist",
