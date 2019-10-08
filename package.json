@@ -19,8 +19,8 @@
     "start": "electron .",
     "dev": "electron-webpack dev",
     "compile": "electron-webpack",
-    "build": "yarn build:all --dir -c.compression=store -c.mac.identity=null",
-    "build:all": "yarn compile && electron-builder"
+    "build": "yarn build:setup --dir -c.compression=store -c.mac.identity=null",
+    "build:setup": "yarn compile && electron-builder"
   },
   "devDependencies": {
     "electron": "^6.0.11",
