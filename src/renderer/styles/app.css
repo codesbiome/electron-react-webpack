@@ -14,7 +14,7 @@ body {
 }
 
 #root {
-  padding: 50px;
+  padding: 20px;
   max-width: 500px;
   margin: 0 auto;
 }
@@ -101,4 +101,23 @@ h3 {
   to {
     opacity: 1;
   }
+}
+
+.switch {
+  margin-top: 2rem;
+}
+.switch a {
+  display: block;
+  background: #ffffff;
+  color: #3077c3;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.about {
+  font-style: italic;
+  line-height: 1.5;
 }
