@@ -1,0 +1,14 @@
+# Development folders and files
+node_modules
+dist
+
+# Windows & Mac file caches
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Log folders & files
+logs/
+*.log
+npm-debug.log*
+.npm
