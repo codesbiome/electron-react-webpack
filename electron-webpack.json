@@ -1,0 +1,12 @@
+{
+  "main": {
+    "extraEntries": ["@/preload.js"],
+    "sourceDirectory": "src/main",
+    "webpackConfig": "src/main/webpack.config.js"
+  },
+  "renderer": {
+    "sourceDirectory": "src/renderer",
+    "template": "src/renderer/index.html",
+    "webpackConfig": "src/renderer/webpack.config.js"
+  }
+}

@@ -1,6 +1,6 @@
 // All of the Node.js APIs are available in the preload process.
 // It has the same sandbox as a Chrome extension.
-console.log("Hello from 'preload.js'");
+console.log("Hello from 'preload'");
 
 // Show version numbers for different technologies used
 window.addEventListener('DOMContentLoaded', () => {
