@@ -1,11 +1,12 @@
 import React from 'react';
 import SystemModules from './components/SystemModules';
+import { getStatic } from './helpers';
 
 const App = () => {
   return (
     <div>
       <div className="jumbo">
-        <img className="logo" src="./app.ico" />
+        <img className="logo" src={getStatic('app.ico')} />
         <h1>
           My <span>Electron</span> App
         </h1>
