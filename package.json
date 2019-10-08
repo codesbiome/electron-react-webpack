@@ -1,0 +1,7 @@
+{
+  "name": "electron-react-webpack",
+  "version": "0.1.0",
+  "description": "A custom boilerplate for Desktop application made with Electron + React + Webpack technologies",
+  "main": "index.js",
+  "license": "MIT"
+}
