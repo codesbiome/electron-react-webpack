@@ -10,7 +10,7 @@
     "productName": "MyElectronApp",
     "copyright": "Copyright @ 2019 Gary",
     "win": {
-	  "target": "nsis",
+      "target": "nsis",
       "icon": "static/app.ico"
     }
   },
@@ -23,6 +23,7 @@
     "build:setup": "yarn compile && electron-builder"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
     "electron": "^6.0.11",
     "electron-builder": "^21.2.0",
     "electron-webpack": "^2.7.4",

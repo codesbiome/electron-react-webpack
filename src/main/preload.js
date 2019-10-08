@@ -6,13 +6,19 @@ const { version: ReactVersion } = require('react');
 const { version: WebpackVersion } = require('webpack');
 const modulesInUse = ['chrome', 'node', 'electron', 'react', 'webpack'];
 
-// Show version numbers for different technologies used
-window.addEventListener('DOMContentLoaded', () => {
-  const replaceText = (selector, text) => {
-    const element = document.getElementById(selector);
-    if (element) element.innerText = text;
-  };
+// Keep 'modules version' in 'window" object
+window['modulesInUse'] = getModulesVersion(modulesInUse);
 
+/**
+ * Get Modules Version Number
+ *
+ * @param {array} modulesInUse
+ * @return {object}   Modules with name and version
+ */
+function getModulesVersion(modulesInUse) {
+  let result = {};
+
+  // Loop through modules in use
   for (const type of modulesInUse) {
     let version = '';
 
@@ -27,6 +33,17 @@ window.addEventListener('DOMContentLoaded', () => {
         version = process.versions[type];
     }
 
-    replaceText(`${type}-version`, version);
+    result[capitalizeFirstLetter(type)] = version;
   }
-});
+
+  return result;
+}
+
+/**
+ * Capitalize first letter of string
+ *
+ * @param {*} string
+ */
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
