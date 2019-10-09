@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div>
+    <div className="page">
       <h3 className="headline">
-        Made with <span className="heart">❤️</span> and chanting mantra 🙏
+        Made with <span className="heart">❤️</span> and chanting mantra 🙏 of success
       </h3>
       <div className="modules">
         <h3>Ingredients Information</h3>

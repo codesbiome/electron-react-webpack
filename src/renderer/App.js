@@ -10,7 +10,7 @@ const App = () => {
         <div className="jumbo">
           <img className="logo" src={getStatic('app.ico')} />
           <h1>
-            My <span>Electron</span> App
+            <span>Electron</span>-React-Webpack
           </h1>
         </div>
 

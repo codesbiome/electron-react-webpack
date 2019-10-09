@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
-    <div>
+    <div className="page">
       <p className="headline about">
         Once upon a time there was a little prick who wanted to create
         <br />a basic application using ElectronJS, React and Webpack.
