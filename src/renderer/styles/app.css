@@ -1,7 +1,16 @@
 * {
   box-sizing: border-box;
-  user-select: none;
 }
+*,
+*::after,
+*::before {
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-app-region: no-drag;
+  user-select: none;
+  cursor: default;
+}
+
 html,
 body {
   font-size: 16px;
