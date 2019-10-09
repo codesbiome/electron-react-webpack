@@ -1,7 +1,9 @@
 <br />
 <div align="center">
-<img src="static/screenshot-jumbo.png">
-Minimal boilerplate for making Dekstop Applications using Electron, React and Webpack
+    <img src="static/screenshot-jumbo.png">
+    <div>
+        Minimal boilerplate for making Dekstop Applications using Electron, React and Webpack
+    </div>
 </div>
 
 <br />
