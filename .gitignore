@@ -12,3 +12,6 @@ logs/
 *.log
 npm-debug.log*
 .npm
+
+# Shourtcut (Link) files Windows
+*.lnk
