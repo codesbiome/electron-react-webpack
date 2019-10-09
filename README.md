@@ -1,8 +1,8 @@
 <br />
-<center>
-<div><img src="static/screenshot-jumbo.png"></div>
+<div align="center">
+<img src="static/screenshot-jumbo.png">
 Minimal boilerplate for making Dekstop Applications using Electron, React and Webpack
-</center>
+</div>
 
 <br />
 
