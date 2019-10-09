@@ -122,19 +122,18 @@ h3 {
 }
 .switch a {
   display: block;
-  background: #ffffff;
-  color: #3077c3;
+  background: #585969;
+  color: #ffffff;
   text-decoration: none;
   padding: 0.4rem 0.8rem;
   border-radius: 4px;
   line-height: 1.8;
   text-align: center;
   outline: none;
-  border: 1px solid;
   font-weight: 500;
 }
 .switch a:hover {
-  background: #f7fbff;
+  background: #4f4f58;
 }
 
 .about {
