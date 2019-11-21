@@ -10,7 +10,7 @@
 
 ## Overview
 
-After being annoyed for so many days for searching a decent, working and minimal boilerplate for writing Dekstop Application using Electron and React, this project was made to make the life easier a bit.
+After being annoyed for so many days for searching a decent, working and minimal boilerplate for writing Desktop Application using Electron and React, this project was made to make the life easier a bit.
 
 This project makes use of `electron` with `electron-webpack` and `react` to serve the best environment for development.
 
