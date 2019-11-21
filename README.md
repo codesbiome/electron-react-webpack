@@ -2,7 +2,7 @@
 <div align="center">
     <img src="static/screenshot-jumbo.png">
     <div>
-        Minimal boilerplate for making Dekstop Applications using Electron, React and Webpack
+        Minimal boilerplate for making Desktop Applications using Electron, React and Webpack
     </div>
 </div>
 
